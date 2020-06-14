@@ -212,9 +212,14 @@ footer .container{
     /* Преимущества */
 .advant{
     display: flex;
+    align-items: center;
 }
 
-.list .item:not(:last-child){
+.advant > .item{
+    width: calc((100% - 30px * 3) / 4);
+}
+
+.list > .item:not(:last-child){
     margin-right: 30px;
 }
 
@@ -261,6 +266,11 @@ footer .container{
 
 .container .work{
     display: flex;
+    align-items: center;
+}
+
+.work > .item{
+    width: calc((100% - 30px * 2) / 3);
 }
 
 .work .link{
@@ -289,7 +299,8 @@ footer .container{
     display: flex;
 }
 
-.team .item{
+.team > .item{
+    width: calc((100% - 30px * 3) / 4);
     background: var(--btn-txt-color);
 }
 
@@ -365,7 +376,7 @@ footer .container{
 
 .footer-part{
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .address-part > .logo{
@@ -383,6 +394,8 @@ footer .container{
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    padding-bottom: 9px;
+
 }
 
 .auth .links{
@@ -400,6 +413,8 @@ footer .container{
 
 /* Cоциальные сети */
 .footer-part .txt{
+    display: block;
+    padding-bottom: 20px;
     color: var(--btn-txt-color);
     font-weight: 700;
     font-size: 14px;
@@ -421,13 +436,12 @@ footer .container{
     letter-spacing: 0.06em;
 }
 
-.social-part{
+.social{
     margin-left: 69px;
 }
 
-.social-part > .txt{
-    display: block;
-    padding-bottom: 20px;
+.mailing{
+    margin-left: auto;
 }
 
 footer .footer-part > .btn{
@@ -495,13 +509,6 @@ footer > .copy{
     border-width: 2px;
 }
 
-/* .project .button.text{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-} */
-
 .portfolio{
     padding-top: 0;
 }
@@ -512,10 +519,10 @@ footer > .copy{
 }
 
 .works .works-items{
-    border: 1px solid #EEEEEE;
-    width: 370px;
+    width: calc((100% - 30px * 2) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
 }
 
 .works .works-items:nth-child(3n){
