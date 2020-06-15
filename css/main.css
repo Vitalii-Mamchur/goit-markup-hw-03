@@ -382,7 +382,8 @@ footer .container{
 .address-part > .logo{
     display: inline-block;
     padding-top: 45px;
-    padding-bottom: 8px;
+    padding-bottom: 0;
+    margin-bottom: 8px;
 }
 
 .auth .city{
@@ -391,7 +392,7 @@ footer .container{
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 
 }
 
@@ -405,7 +406,7 @@ footer .container{
 }
 
 .auth .meil{
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .auth .tell{
@@ -420,7 +421,7 @@ footer .container{
 /* Cоциальные сети */
 .footer-part .txt{
     display: block;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     color: var(--btn-txt-color);
     font-weight: 700;
     font-size: 14px;
@@ -549,7 +550,7 @@ footer > .copy{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 4px;
     padding-left: 24px;
 }
@@ -560,7 +561,7 @@ footer > .copy{
     line-height: 1.88;
     letter-spacing: 0.03em;
     padding-left: 24px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .list .txt{
