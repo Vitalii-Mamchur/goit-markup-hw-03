@@ -380,16 +380,13 @@ footer .container{
 }
 
 .address-part > .logo{
-    padding-top: 0px;
+    display: inline-block;
+    padding-top: 45px;
     padding-bottom: 8px;
 }
 
-.address-part{
-    margin-top: 45px;
-    margin-bottom: 28px;
-}
-
 .auth .city{
+    display: inline-block;
     color: var(--btn-txt-color);
     font-style: normal;
     font-size: 14px;
@@ -399,11 +396,20 @@ footer .container{
 }
 
 .auth .links{
+    display: inline-block;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+}
+
+.auth .meil{
+    padding-bottom: 9px;
+}
+
+.auth .tell{
+    padding-bottom: 28px;
 }
     
 .auth .links:hover,
