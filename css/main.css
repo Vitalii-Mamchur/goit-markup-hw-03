@@ -541,15 +541,17 @@ footer > .copy{
     text-decoration: none;
 }
 
+.work-info{
+    padding: 20px 24px;
+}
+
 .works .title{
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding-top: 20px;
     margin-bottom: 4px;
-    padding-left: 24px;
 }
 
 .list .sub{
@@ -557,8 +559,6 @@ footer > .copy{
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    padding-left: 24px;
-    padding-bottom: 20px;
 }
 
 .list .txt{
