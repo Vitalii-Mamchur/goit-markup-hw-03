@@ -8,16 +8,6 @@
     --bg-footer:#2F303A;
 }
 
-html {
-    box-sizing: border-box;
-  }
-  
-*,
-::before,
-::after {
-    box-sizing: inherit;
-}
-  
 h1,
 h2,
 h3,
@@ -43,13 +33,13 @@ body {
     background: var(--btn-txt-color);
     
 }
-
+/* 
 .list{
 
     padding: 0px;
     margin: 0px;
     list-style: none;
-}
+} */
 
 .container {
     width: 1200px;
@@ -57,16 +47,11 @@ body {
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 94px;
     padding-right: 15px;
-    padding-bottom: 94px;
     padding-left: 15px;
 }
 
-header .container{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+header {
     padding-top: 24px;
     padding-bottom: 25px;
 }
@@ -79,8 +64,6 @@ header .container{
 .main-nav{
     display: flex;
     align-items: center;
-    width: 1200px;
-    padding-top: 24px;
 }
 
     /* Логотип */
@@ -161,7 +144,8 @@ header .container{
 
     /* Герой */
 .hero{
-    width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -205,7 +189,12 @@ header .container{
 }
   
     /* Преимущества */
-.advant{
+.advantages{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+    .advant{
     display: flex;
     align-items: center;
 }
@@ -246,11 +235,12 @@ header .container{
 }
 
     /* Чем мы занимаемся */
-.no-padding{
-    padding-top: 0px;
+    .section-works{
+    padding-bottom: 94px;
 }
 
-.section .section-title{
+.section-works .section-title,
+.section-title{
     color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.16;
@@ -282,9 +272,13 @@ header .container{
 }
 
     /* Команда */
+.section-team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .team-bg{
     background: var(--bg-color);
-    width: 1600px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -337,7 +331,12 @@ header .container{
     margin-right: 10px;
 }
 
-    /* Постоянные клиенты */
+/* Постоянные клиенты */
+
+.section-clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .clients{
     display: flex;
@@ -363,7 +362,6 @@ header .container{
 
     /* Адресс */
 .main-footer{
-    width: 1600px;
     background: var(--bg-footer);
     margin-left: auto;
     margin-right: auto;
@@ -465,16 +463,18 @@ footer > .copy{
    
 
 /* Портфолио-проекты */
+.section-projects{
+    padding-top: 93px;
+    padding-bottom: 94px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .container-project{
     width: 1200px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 34px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 89px;
-    padding-right: 15px;
-    padding-bottom: 34px;
-    padding-left: 15px;
 }
 
 .project{
